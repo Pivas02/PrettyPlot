@@ -1,0 +1,16 @@
+# Ignore the update script
+update_prettyplot.sh
+
+# Ignore temporary Mathematica files
+*.mx
+*.m~
+*.nb~
+*.bak
+
+# Ignore hidden system files (macOS and Linux)
+.DS_Store
+*.swp
+
+# Ignore any backup or compiled files
+*.tmp
+*.log
