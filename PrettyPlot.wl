@@ -15,7 +15,7 @@ Begin["Private`"];
 (*PrettyPlot default options*)
 Options[PrettyPlot]={PlotTheme->"Web",Frame->True,FrameStyle->Directive[Black,Thick],BaseStyle->FontSize->18,
 LabelStyle->{FontFamily->If[OSystem=="Linux x86 (64-bit)","Latin Modern Roman","CMU Serif"],GrayLevel[0]},
-ImagePadding->{{Automatic,30},{Automatic,40}},GridLines->Automatic,ImageSize->Large,ColorFunction->None,PlotLegends->Automatic};
+ImagePadding->{{15,30},{15,40}},GridLines->Automatic,ImageSize->Large,ColorFunction->None,PlotLegends->Automatic};
 
 
 (*Function Declarations*)
